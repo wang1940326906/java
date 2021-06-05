@@ -90,6 +90,14 @@ System.out.println("man");
 }
 ```
 ### 6. 二元运算符的运算规则
+- 如果两个操作数，有一个为long，则结果为long
+- 没有long时，结果为int，即使操作数全为short,byte,结果也是int
+- 如果两个操作数有一个为double,则结果为double
+- 只有两个数都是float，结果才为float
+- 
+
+
+
 
 
 
